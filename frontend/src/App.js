@@ -9,7 +9,7 @@ import { Audio } from "react-loader-spinner";
 
 // Constants
 const TWITTER_LINK = "https://github.com/HiberNuts";
-const OPENSEA_LINK = "https://testnets.opensea.io/collection/squarenft-azv8wfn6fk";
+const OPENSEA_LINK = "https://testnets.opensea.io/collection/raghavnft";
 const TOTAL_MINT_COUNT = 50;
 
 const App = () => {
@@ -169,7 +169,7 @@ const App = () => {
           {success ? <p className="subtext">{successMessage}</p> : ""}
           <p className="sub-text">
             Have a look at all of our NFT's... here -&gt;
-            <a target="_blank" href="https://testnets.opensea.io/collection/squarenft-azv8wfn6fk">
+            <a target="_blank" href="https://testnets.opensea.io/collection/raghavnft">
               Open Sea
             </a>
           </p>
