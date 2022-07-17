@@ -15,7 +15,7 @@ const TOTAL_MINT_COUNT = 50;
 const App = () => {
   toast.configure();
   const [CurrentAccount, setCurrentAccount] = useState("");
-  const CONTRACT_ADDRESS = "0x682baC51DbBA471E26731A7667515FE821872EB2";
+  const CONTRACT_ADDRESS = "0xA8aD93756013Ac29C971576ac9670933C2f16E98";
   const [loading, setloading] = useState(false);
   const [success, setsuccess] = useState(false);
   const [successMessage, setsuccessMessage] = useState("");
