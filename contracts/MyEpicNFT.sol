@@ -79,10 +79,8 @@ contract MyEpicNFT is ERC721URIStorage {
 
     function makeAnEpicNFT() public {
         uint256 newItemId = _tokenIds.current();
-
         string memory imageUrl = randomImage();
         string memory _randomWord = randomWord();
-
         string memory json = Base64.encode(
             bytes(
                 string(
@@ -97,24 +95,19 @@ contract MyEpicNFT is ERC721URIStorage {
                 )
             )
         );
-
         string memory finalTokenUri = string(
             abi.encodePacked("data:application/json;base64,", json)
         );
-
         console.log("\n--------------------");
         console.log(finalTokenUri);
         console.log("--------------------\n");
-
         _safeMint(msg.sender, newItemId);
         _setTokenURI(newItemId, finalTokenUri);
-
         console.log(
             "An NFT w/ ID %s has been minted to %s",
             newItemId,
             msg.sender
         );
-
         _tokenIds.increment();
         emit NewEpicNFTMinted(msg.sender, newItemId);
     }

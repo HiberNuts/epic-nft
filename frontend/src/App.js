@@ -8,7 +8,7 @@ import "react-toastify/dist/ReactToastify.css";
 import { Audio } from "react-loader-spinner";
 
 // Constants
-const TWITTER_LINK = "https://github.com/HiberNuts";
+const GITHUB_LINK = "https://github.com/HiberNuts";
 const OPENSEA_LINK = "https://testnets.opensea.io/collection/raghavnft";
 const TOTAL_MINT_COUNT = 50;
 
@@ -176,7 +176,7 @@ const App = () => {
         </div>
         <div style={{ backgroundColor: "white", zIndex: 100 }} className="footer-container">
           <img alt="Twitter Logo" className="twitter-logo" src={githubLogo} />
-          <a className="footer-text" href={TWITTER_LINK} target="_blank" rel="noreferrer">
+          <a className="footer-text" href={GITHUB_LINK} target="_blank" rel="noreferrer">
             built by HiberNuts
           </a>
         </div>
