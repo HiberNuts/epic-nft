@@ -17,6 +17,7 @@ contract MyEpicNFT is ERC721URIStorage {
         console.log("This is my NFT contract. Whoa!");
     }
 
+
     uint256 nonce = 50;
     uint256 nonce2 = 50;
 
