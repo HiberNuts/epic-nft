@@ -8,7 +8,7 @@ import "react-toastify/dist/ReactToastify.css";
 import { Audio } from "react-loader-spinner";
 
 // Constants
-const GITHUB_LINK = "https://github.com/HiberNuts";
+const GITHUB_LINK = "https://github.com/HiberNuts/epic-nft";
 const OPENSEA_LINK = "https://testnets.opensea.io/collection/raghavnft";
 const TOTAL_MINT_COUNT = 50;
 
