@@ -177,7 +177,7 @@ const App = () => {
         <div style={{ backgroundColor: "white", zIndex: 100 }} className="footer-container">
           <img alt="Twitter Logo" className="twitter-logo" src={githubLogo} />
           <a className="footer-text" href={GITHUB_LINK} target="_blank" rel="noreferrer">
-            built by HiberNuts
+            Built by HiberNuts
           </a>
         </div>
       </div>
