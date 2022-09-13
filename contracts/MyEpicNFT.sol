@@ -85,6 +85,7 @@ contract MyEpicNFT is ERC721URIStorage {
         string memory _randomWord = randomWord();
         string memory json = Base64.encode(
             bytes(
+                
                 string(
                     abi.encodePacked(
                         '{"name": "',
