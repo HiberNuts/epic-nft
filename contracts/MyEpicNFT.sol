@@ -78,6 +78,7 @@ contract MyEpicNFT is ERC721URIStorage {
         return randomWords[word];
     }
 
+
     function makeAnEpicNFT() public {
         uint256 newItemId = _tokenIds.current();
         string memory imageUrl = randomImage();
